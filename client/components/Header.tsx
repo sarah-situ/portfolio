@@ -1,11 +1,18 @@
 import { FaLinkedin } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
+import { GoMail } from "react-icons/go";
+
+
 
 export default function Header(){
     return (
         <header>
             <nav><h1>
-            Sarah Situ<FaLinkedin />
+            <a href="https://github.com/sarah-situ" ><FaGithub  size="1.5em"/></a>
+            <a href="https://www.linkedin.com/in/sarah-situ-b74358299/" ><FaLinkedin  size="1.5em"/></a>
+       <a href="mailto:sarahsitu563@gmail.com" ><GoMail size="1.5em"/></a>
         </h1>
+       
                 <ul>
                   <li><a href="#home" className="nav-link">Home</a></li>
                   <li><a href="#about" className="nav-link">About</a></li>
