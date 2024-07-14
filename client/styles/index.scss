@@ -10,6 +10,11 @@ p {
   font-family: 'Sora', sans-serif;
   font-weight: 200;
 }
+.title {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 5pxpx;
+}
 /* Navbar */
 // header {
 //   background: white;
@@ -64,4 +69,54 @@ body {
 .bio-text {
   width: 25rem;
   border-radius: 6px;
+}
+
+/* Projects section */
+.projects {
+  background-color: var(--bg-color);
+  padding: 32px 0;
+  margin-top: 2rem;
+}
+
+.project-pic {
+  width: 100%;
+  height: 215px;
+}
+
+.projects-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.projects-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.project-container {
+  text-align: center;
+  width: 21.875rem;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-container:hover {
+  color:white;
+  background-color: blue;
+}
+.project-container p {
+  padding: 0.4rem;
+}
+
+.project-title {
+  margin-bottom: var(--bottom-margin);
+}
+
+.project-details {
+  margin-bottom: var(--bottom-margin);
 }
