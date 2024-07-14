@@ -25,7 +25,7 @@ export default function Projects() {
           />
           <h3 className="project-title">Troll Toll Calculator</h3>
           <p className="project-details">
-            The Troll Toll Calculator App will help Auckland-based bridge trolls optimise their toll revenue when they select their active bridge.</p>
+            The Troll Toll Calculator App will help trolls optimise their toll revenue on Auckland-based bridges.</p>
        <p><a href="https://github.com/sarah-situ/troll-toll-calculator" target="_blank" rel="noreferrer">GitHub</a></p>
        </div>
       </div>
