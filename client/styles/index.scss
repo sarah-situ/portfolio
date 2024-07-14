@@ -113,6 +113,13 @@ body {
   padding: 0.4rem;
 }
 
+.project-link {
+  color: black;
+}
+.project-link:hover {
+  color:white;
+
+}
 .project-title {
   margin-bottom: var(--bottom-margin);
 }

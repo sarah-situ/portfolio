@@ -25,9 +25,9 @@ export default function Projects() {
           />
           <h3 className="project-title">Troll Toll Calculator</h3>
           <p className="project-details">
-            The Troll Toll Calculator App will help Auckland-based bridge trolls optimise their toll revenue when they select their active bridge.
-        
-          </p>
+            The Troll Toll Calculator App will help Auckland-based bridge trolls optimise their toll revenue when they select their active bridge.</p>
+        <p className="project-link"><a href="https://github.com/sarah-situ/troll-toll-calculator" >GitHub</a></p>
+       
           {/* <a href="#" target="_blank" className="project-link">Check it Out</a> */}
       </div>
       </div>
