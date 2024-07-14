@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 html, 
-body, nav{
-  font-family: 'Rubik', sans-serif;
+body, nav {
+  font-family: 'Sora', sans-serif;
   font-weight:700;
 }
 
+p {
+  font-family: 'Sora', sans-serif;
+  font-weight: 200;
+}
 /* Navbar */
 // header {
 //   background: white;
@@ -55,4 +59,9 @@ nav ul li a {
 body {
   margin: 0;
   padding-top: 5px; /* Adjust this value based on header height */
+}
+
+.bio-text {
+  width: 25rem;
+  border-radius: 6px;
 }

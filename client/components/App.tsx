@@ -1,4 +1,5 @@
 import Header from "./Header"
+import About from "./About"
 function App() {
 
 
@@ -6,7 +7,7 @@ function App() {
     <>
       <div className="app">
         <Header/>
-        <h1>Portfolio</h1>
+        <About/>
       </div>
     </>
   )
