@@ -12,9 +12,7 @@ export default function Projects() {
           />
           <h3 className="project-title">Grow Grub</h3>
           <p className="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
+            A plant companion app to help you with all your planting care needs.
           </p>
           {/* <a href="#" target="_blank" className="project-link">Check it Out</a> */}
         </div>
@@ -27,9 +25,8 @@ export default function Projects() {
           />
           <h3 className="project-title">Troll Toll Calculator</h3>
           <p className="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
+            The Troll Toll Calculator App will help Auckland-based bridge trolls optimise their toll revenue when they select their active bridge.
+        
           </p>
           {/* <a href="#" target="_blank" className="project-link">Check it Out</a> */}
       </div>
