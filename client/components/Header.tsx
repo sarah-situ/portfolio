@@ -1,9 +1,10 @@
+import { FaLinkedin } from "react-icons/fa6";
 
 export default function Header(){
     return (
         <header>
             <nav><h1>
-            Sarah Situ
+            Sarah Situ<FaLinkedin />
         </h1>
                 <ul>
                   <li><a href="#home" className="nav-link">Home</a></li>
