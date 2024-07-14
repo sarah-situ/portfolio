@@ -8,7 +8,7 @@ export default function Home() {
           New Zealand.
           <br></br>
           As a recent career changer, I&apos;ve recently finished up an
-          intensive web development program at Deve Academy Aotearor with
+          intensive web development program at Dev Academy Aotearoa with
           JavaScript, React and TypeScript.
           <br></br>
           I&apos;m excited to put my skills to work and create impactful
