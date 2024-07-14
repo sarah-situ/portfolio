@@ -8,9 +8,9 @@ export default function Header(){
     return (
         <header>
             <nav><h1>
-            <a href="https://github.com/sarah-situ" ><FaGithub  size="1.5em"/></a>
-            <a href="https://www.linkedin.com/in/sarah-situ-b74358299/" ><FaLinkedin  size="1.5em"/></a>
-       <a href="mailto:sarahsitu563@gmail.com" ><GoMail size="1.5em"/></a>
+            <a href="https://github.com/sarah-situ" ><FaGithub  className="icons" size="1.5em"/></a>
+            <a href="https://www.linkedin.com/in/sarah-situ-b74358299/" ><FaLinkedin className="icons" size="1.5em"/></a>
+       <a href="mailto:sarahsitu563@gmail.com" ><GoMail className="icons"size="1.5em"/></a>
         </h1>
        
                 <ul>

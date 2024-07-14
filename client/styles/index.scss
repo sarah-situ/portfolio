@@ -12,6 +12,7 @@ body, nav {
   align-items: center; /* Center items horizontally */
   // text-align: center; /* Center text inside the container */
   padding: 2rem; /* Add padding for spacing */
+  padding-top: 150px;
   
 }
 .bio-text {
@@ -45,15 +46,22 @@ a {
 //   width: 100%;
 //   z-index: 1;
 // }
+
+.icons {
+  padding-right: 30px; 
+}
 nav {
-  position: sticky;
+  position:fixed;
+ 
   top: 0;
   left: 0;
-  z-index: 1;
+  width: 100%;
+  z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem 2.5rem;
+  padding-right: 60px;
   background-color: var(--bg-color);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
@@ -69,15 +77,19 @@ nav a:hover {
 
 nav ul{
   display: flex;
-  gap: 1.9rem;
+  padding-right: 50px;
+  list-style-type: none;
 }
 
 nav ul li a {
   color: black;
   text-decoration: none;
   padding: 10px 10px;
+  list-style-type: none;
+  
+  padding-right: 50px;
   display: flex;
-  gap: 1.9rem;
+
   transition: 0.3s ease; /* Use the transition directly */
 }
 
