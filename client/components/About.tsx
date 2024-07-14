@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <><div className="about-me">
+    <><div className="about-me" id="about">
       <h1>Kia Ora! My name is Sarah</h1>
       
         <p className="bio-text">

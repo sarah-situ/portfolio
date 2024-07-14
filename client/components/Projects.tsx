@@ -1,6 +1,6 @@
 export default function Projects() {
   return (
-    <>
+    <><div id="projects">
       <h1 className="title">Projects</h1>
       <div className="projects-container">
         <div className="project-container project-card">
@@ -28,6 +28,7 @@ export default function Projects() {
             The Troll Toll Calculator App will help trolls optimise their toll revenue on Auckland-based bridges.</p>
        <p><a href="https://github.com/sarah-situ/troll-toll-calculator" target="_blank" rel="noreferrer">GitHub</a></p>
        </div>
+      </div>
       </div>
     </>
   )
