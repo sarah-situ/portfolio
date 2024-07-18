@@ -18,7 +18,7 @@ export default function Header(){
                   <li><a href="#about" className="nav-link">About</a></li>
                   <li><a href="#projects" className="nav-link">Projects</a></li>
                   {/* <li><a href="#Contact" className="nav-link">Contact</a></li> */}
-                  <li><a href="../../images/Sarah-Situ-CV.pdf" className="nav-link">CV</a></li>
+                  <li><a href="../../images/Sarah Situ CV.pdf" className="nav-link">CV</a></li>
                 </ul>
             </nav>
         </header>
